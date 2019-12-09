@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: organization-service
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8061/eureka
